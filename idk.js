@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Osaka</title>
+    <link rel="stylesheet" href="idk.css">
+    <script defer src="idk.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <h1>Discover Osaka</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#attractions">Attractions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Welcome to Osaka</h2>
+        <p>Explore the vibrant culture, cuisine, and sights of Osaka, Japan. From the historical Osaka Castle to the dazzling Dotonbori district, Osaka offers something for everyone.</p>
+    </section>
+
+    <section id="attractions" class="section">
+        <h2>Top Attractions in Osaka</h2>
+        <div class="attraction-list">
+            <div class="attraction">
+                <h3>Osaka Castle</h3>
+                <img src = "https://resources.matcha-jp.com/resize/720x2000/2023/03/28-136333.webp" alt="Osaka Castle">
+                <p>An iconic symbol of Osaka, featuring a beautiful park and museum.</p>
+            </div>
+            <div class="attraction">
+                <h3>Dotonbori</h3>
+                <img src="https://gaijinpot.scdn3.secure.raxcdn.com/app/uploads/sites/4/2014/04/dotonburi-1024x683.jpg" alt="Dotonbori">
+                <p>A lively area known for street food, neon lights, and the famous Glico sign.</p>
+            </div>
+            <div class="attraction">
+                <h3>Shinsaibashi Shopping Street</h3>
+                <img src="https://cdn-v2.theculturetrip.com/1200x675/wp-content/uploads/2018/03/14072262993_4a8a27cbbf_k.webp" alt="Shinsaibashi">
+                <p>A bustling shopping area with countless stores, cafes, and boutiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+            <p id="responseMessage"></p>
+        </form>
+    </section>
+</body>
+</html>
